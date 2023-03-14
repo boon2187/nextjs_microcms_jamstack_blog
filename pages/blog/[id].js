@@ -32,7 +32,7 @@ export const getStaticPaths = async () => {
 }
 
 export default function BlogId ({ blog }) {
-    console.log(blog)
+    // console.log(blog)
 
     return (
         <main className={styles.main}>
